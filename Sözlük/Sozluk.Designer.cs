@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sozluk));
             this.label1 = new System.Windows.Forms.Label();
             this.textGirilenKelime = new System.Windows.Forms.TextBox();
             this.buttonKelimeBul = new System.Windows.Forms.Button();
@@ -81,6 +82,7 @@
             this.Controls.Add(this.textGirilenKelime);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Outfit", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Sozluk";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
