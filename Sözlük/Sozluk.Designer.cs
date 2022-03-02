@@ -38,7 +38,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(28, 25);
+            this.label1.Location = new System.Drawing.Point(15, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(125, 24);
@@ -47,7 +47,7 @@
             // 
             // textGirilenKelime
             // 
-            this.textGirilenKelime.Location = new System.Drawing.Point(162, 22);
+            this.textGirilenKelime.Location = new System.Drawing.Point(149, 6);
             this.textGirilenKelime.Name = "textGirilenKelime";
             this.textGirilenKelime.Size = new System.Drawing.Size(241, 31);
             this.textGirilenKelime.TabIndex = 1;
@@ -55,7 +55,7 @@
             // 
             // buttonKelimeBul
             // 
-            this.buttonKelimeBul.Location = new System.Drawing.Point(437, 22);
+            this.buttonKelimeBul.Location = new System.Drawing.Point(424, 6);
             this.buttonKelimeBul.Name = "buttonKelimeBul";
             this.buttonKelimeBul.Size = new System.Drawing.Size(111, 31);
             this.buttonKelimeBul.TabIndex = 3;
@@ -65,7 +65,7 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(32, 75);
+            this.richTextBox1.Location = new System.Drawing.Point(19, 59);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(516, 147);
@@ -76,7 +76,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(584, 234);
+            this.ClientSize = new System.Drawing.Size(551, 215);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.buttonKelimeBul);
             this.Controls.Add(this.textGirilenKelime);
